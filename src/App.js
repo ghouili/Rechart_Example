@@ -1,14 +1,16 @@
 import React from 'react'
 
-import LineChartExample from './Pages/Recharts/LineChartExample'
+import LineChartExample from './Pages/Recharts/LineChartExample';
+import Areachart from './Pages/Recharts/Areachart';
+import Pegion from './Components/Pegion';
 
 function App() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}> 
-    <LineChartExample />
-    <LineChartExample />
-    <LineChartExample />
+    {/* <LineChartExample /> */}
+    <Areachart />
     </div>
+    // <Pegion />
   )
 }
 
